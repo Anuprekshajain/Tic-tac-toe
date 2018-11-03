@@ -1,32 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     android:orientation="vertical"
     android:weightSum="1"
     tools:context="anupreksha.com.tic_tac_toe.MainActivity">
 
     <Button
         android:id="@+id/button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.5"
-        android:background="@android:drawable/btn_radio"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignStart="@+id/button2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="110dp"
+        android:background="#ffad60"
         android:fontFamily="cursive"
-        android:text="@string/single_player"
+        android:padding="5dp"
+        android:text="@string/Single_player"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="40sp" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.50"
-        android:background="@android:drawable/btn_radio"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="142dp"
+        android:background="#ffad60"
         android:fontFamily="cursive"
+        android:padding="5dp"
         android:text="@string/multi_player"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="40sp" />
-</LinearLayout>
+</RelativeLayout>
 

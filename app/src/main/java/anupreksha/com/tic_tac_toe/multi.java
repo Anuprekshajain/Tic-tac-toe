@@ -10,7 +10,7 @@ public class multi extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_multi);
+        setContentView(R.layout.multi);
         b1=(Button)findViewById(R.id.b1);
         b2=(Button)findViewById(R.id.b2);
         b3=(Button)findViewById(R.id.b3);
